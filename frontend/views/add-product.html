@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Add New Product</title>
+  <link rel="stylesheet" href="../stylesheets/add-product.css">
+</head>
+<body>
+  <header>
+    <h1>➕ Add New Product</h1>
+    <button id="back-btn">← Back to Products</button>
+  </header>
+
+  <form id="add-product-form">
+    <input type="text" id="product-name" placeholder="Product Name" required>
+    <input type="text" id="product-description" placeholder="Product Description" required>
+    <input type="number" id="product-price" placeholder="Price" required>
+    <h2>Add image</h2>
+    <input type="file" name="file" id="product-image" required>
+    <button type="submit">Add Product</button>
+  </form>
+
+  <script src="../javascripts/add-product.js"></script>
+</body>
+</html>
